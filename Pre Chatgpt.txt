@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Page Title-->
     <title>SAVANNAH GRAINS</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, "/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -24,12 +42,11 @@
 <!--End of Preloader-->
 
 <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
-    <div class="top-border wow fadeInDown animated"></div>
-    <div class="right-border wow fadeInRight animated"></div>
-    <div class="bottom-border wow fadeInUp animated"></div>
-    <div class="left-border wow fadeInLeft animated"></div>
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
 </div>
-
 
 <div id="wrapper">
 
@@ -42,11 +59,11 @@
                     <div id="logo">
 
                         <!--Logo that is shown on the banner-->
-                        <img src="images/logo-3 - Copy.jpg" id="banner-logo" alt="Landing Page"/>
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/logo-3 - Copy.jpg" id="navigation-logo" alt="Landing Page"/>
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
                         <!--End of Navigation Logo-->
 
                     </div>
@@ -91,8 +108,10 @@
                                 <a href="#gallery">Gallery</a>
                             </li>
                             <li>
-                                <a href="#ideas">Ideas</a>
+                                <a href="#services">Ideas</a>
                             </li>
+                            <li><a href="#email">Contact</a></li>
+
                         
                         </ul>
                     </nav>
@@ -155,7 +174,6 @@
                 </div>
 
                 <div class="col-2-3">
-                    <div class="section-heading">
                     <h2 class="section-title">WHY CHOOSE MILLET </h2>
 
                     <!--Icon Block-->
@@ -169,7 +187,6 @@
                             <h4>Easy To Grow</h4>
                             <p>Millet is a common crop in lake regions such as in East Africa; where we source ours.</p>
                         </div>
-                    </div>
                     </div>
                     <!--End of Icon Block-->
 
@@ -265,17 +282,22 @@
 
 
         <!--Content Section-->
-        <section id="ideas" class="scrollto clearfix">
-            <div class="row clearfix">
+        <div id="services" class="scrollto clearfix">
 
+            <div class="row no-padding-bottom clearfix">
+
+
+                <!--Content Left Side-->
+               
+                <!--End Content Left Side-->
 
                 <!--Content of the Right Side-->
-              <!--Content -->
-              
+              <!--Content of the Right Side-->
+              <div class="col-3">
                 <div class="section-heading">
-                <h2 class="section-title">BRANDING IDEAS </h2>
-                    
-                    <p>
+                
+                    <h2 class="section-title">BRAND COMMUNICATION IDEAS</h2>
+                    <p class="section-subtitle">
                     To apply all research on our communication, SavannahGrains must identify intercultural
                     aspects within the project. Looking at this will help in our communication plan and the
                     story of the company.
@@ -289,40 +311,66 @@
                     SavannahGrains' unwavering commitment to sustainability and environmental
                     responsibility. We can highlight how SavannahGrains’ products contribute to a healthier
                     planet by utilizing eco-friendly materials, minimizing carbon footprint, and actively
-                    supporting conservation efforts.   
-                </div>
+                    supporting conservation efforts.    </div>
+                
                
+                <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                <a href="#" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" class="button video link-lightbox">
+                    SURVEY  <i class="fa fa-play" aria-hidden="true"></i>
+                </a>
             </div>
-        </section>
             <!--End Content Right Side-->
 
+            <div class="col-3">
+                <img src="images/dancer.jpg" alt="Dancer"/>
+            </div>
+            <div class="col-3">
+                <img src="images/dancer.jpg" alt="Dancer"/>
+            </div>
+            <div class="col-3">
+                <img src="images/dancer.jpg" alt="Dancer"/>
+            </div>
+            <div class="col-3">
+                <img src="images/dancer.jpg" alt="Dancer"/>
+            </div>
+            <div class="col-3">
+                <img src="images/dancer.jpg" alt="Dancer"/>
+            </div>
+            <div class="col-3">
+                <img src="images/dancer.jpg" alt="Dancer"/>
+            </div>
 
-            
+        </div>
+
 
     </div>
                 <!--End Content Right Side-->
-                <section id="pricing" class="secondary-color text-center scrollto clearfix ">
-                    <div class="row clearfix">
+                <div id="services" class="scrollto clearfix">
+
+                    <div class="row no-padding-bottom clearfix">
         
-        
-                        <div class="section-heading">
-                            <h2 class="section-title">OUR MISSION </h2>
-                        <p>
+                <div class="col-2>
+                    <div class="section-heading">
+                        <!-- <h3>INVESTING </h3> -->
+                        <h2 class="section-title">OUR MISSION</h2>
+                        <p class="section-subtitle">
+                            
                             We created SavannahGrains to develop millet in kenya with
                             sustainable agricultural methods. This way the kenyan farmers have a new
                             opportunity for gaining high quality products in an easier way. Our passion for
                             brand creation and communication plan will be a new start and engage a new
                             collaboration between Kenya and Europe.
                             Millet will conquer the market and benefit from this new demand for cereals
-                            thanks to SavannahGrains.   </p>
-                            </div>
-                            
+                            thanks to SavannahGrains.    </div>
 
             </div>
 
+
         </div>
-    </section>
         <!--End of Content Section-->
+
+        
+        <!--End of Pricing Tables-->
 
     </main>
     <!--End Main Content Area-->
